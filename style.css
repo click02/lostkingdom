@@ -69,6 +69,10 @@ section {
     /*min-height: 1000px;*/
 }
 
+footer {
+    text-align: center;
+}
+
 
 /*  player status box   */
 
@@ -79,8 +83,12 @@ section {
 
 #players_online div {
     text-align: center;
-    padding: 0vh 5vw 0vh 5vw;
+    padding: 0vh 0vw 0vh 0vw;
     margin-right: 2vw;
     margin-bottom: 2vw;
     border: rgb(43, 53, 25) solid 2px;
+}
+
+.profile_container {
+    display: none;
 }

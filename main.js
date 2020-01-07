@@ -6,8 +6,7 @@ $(document).ready(function() {
         if (api.players.sample != null) {
             api.players.sample.forEach(element => {
                 var img = document.createElement("img");
-
-                $('#players_online').append('<div><p>' + element.name + '</p></div>');
+                $('#players_online').append('<div><img src="https://minotar.net/helm/' + element.id + '/100.png"><p>' + element.name + '</p></div>');
             });
         } else {
             $('#players_online').append('<div><p>no one is online right now</p></div>');
@@ -16,11 +15,3 @@ $(document).ready(function() {
     });
 
 });
-
-
-function createProfile(username) {
-    //  create an empty div with the class of profile_container
-    var profile_container = document.createElement('div');
-    profile_container.className = "profile_container";
-
-}
