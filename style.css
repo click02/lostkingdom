@@ -1,0 +1,86 @@
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url('background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+}
+
+
+/*  loading screen  */
+
+#loading_screen {
+    display: block;
+    min-width: 100vw;
+    min-height: 100vh;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+    background-color: white;
+}
+
+header {
+    min-width: 100vw;
+    min-width: 5vw;
+    padding: 30px 25vw 30px 25vw;
+    color: white;
+}
+
+header h1 {
+    margin: 0px;
+    font-family: 'Lobster', cursive;
+}
+
+
+/*  Navigation menu */
+
+nav {
+    min-height: 40px;
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    min-width: 33vw;
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    background-color: transparent;
+    color: black;
+}
+
+section {
+    margin: 30px 20vw 30px 20vw;
+    padding: 30px 5vw 30px 5vw;
+    background-color: white;
+    /*min-height: 1000px;*/
+}
+
+
+/*  player status box   */
+
+#players_online {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#players_online div {
+    text-align: center;
+    padding: 0vh 5vw 0vh 5vw;
+    margin-right: 2vw;
+    margin-bottom: 2vw;
+    border: rgb(43, 53, 25) solid 2px;
+}
