@@ -16,9 +16,9 @@ body {
 
 #loading_screen {
     display: block;
-    min-width: 100vw;
-    min-height: 100vh;
-    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    position: relative;
     top: 0px;
     left: 0px;
     z-index: 100;
