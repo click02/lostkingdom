@@ -1,13 +1,12 @@
 {
     "purple": {
-        0: "saernda",
-        1: "Zarty"
+        "0": "saernda",
+        "1": "Zarty"
     },
     "orange": {
-        0: "aspiz"
+        "0": "aspiz"
     },
     "red": {
-        0: "fete_git"
-    },
-    "black": {}
+        "0": "fete_git"
+    }
 }
