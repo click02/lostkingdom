@@ -1,6 +1,6 @@
 $(document).ready(function() {
     //  getting color rank for all players
-    $.getJSON('https://raw.githubusercontent.com/sda782/sda782.github.io/master/colorDatabase.json', function(colordata) {
+    $.getJSON('https://raw.githubusercontent.com/sda782/lostkingdom/master/colorDatabase.json', function(colordata) {
 
         //  getting online players
         $.getJSON('https://api.minetools.eu/ping/fallen.serverminer.com/', function(api) {
