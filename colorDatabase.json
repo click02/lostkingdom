@@ -9,11 +9,11 @@
     },
     "2": {
         "name": "aspiz",
-        "color": "orange"
+        "color": "purple"
     },
     "3": {
         "name": "fete_git",
-        "color": "red"
+        "color": "orange"
     },
     "4":{
         "name": "LittleStar666",
@@ -34,5 +34,13 @@
     "8":{
         "name": "Kellytop",
         "color": "white"
+    },
+    "9":{
+        "name": "click02",
+        "color": "orange"
+    },
+    "10":{
+        "name": "elforresto",
+        "color": "purple"
     }
 }
